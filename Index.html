@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Worship Theater Global Ministries</title>
+
+  <meta name="description" content="Worship Theater Global Ministries — Worship, Word, Power, Discipleship and Mission.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 18px 6%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #111 0%, #222 55%, #8b6914 100%);
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 7vw, 72px);
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      color: #d4af37;
+      font-size: clamp(18px, 3vw, 28px);
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      max-width: 720px;
+      margin: auto auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d4af37;
+      color: #111;
+      padding: 13px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 6px;
+    }
+
+    .button.dark {
+      background: white;
+      color: #111;
+    }
+
+    section {
+      padding: 75px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .section-title span {
+      color: #a57c16;
+      font-weight: bold;
+    }
+
+    .about {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .cards {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      padding: 28px;
+      border-radius: 15px;
+      background: #f7f7f7;
+      border: 1px solid #e5e5e5;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #8a6817;
+    }
+
+    .vision {
+      background: #111;
+      color: white;
+    }
+
+    .vision .card {
+      background: #1e1e1e;
+      border-color: #333;
+    }
+
+    .vision .card h3 {
+      color: #d4af37;
+    }
+
+    .services {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .service {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+      margin-bottom: 12px;
+      background: #f7f7f7;
+      border-left: 5px solid #d4af37;
+      border-radius: 8px;
+    }
+
+    .service strong {
+      color: #111;
+    }
+
+    .contact {
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    footer span {
+      color: #d4af37;
+    }
+
+    @media (max-width: 750px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 5px;
+        font-size: 12px;
+      }
+
+      .service {
+        flex-direction: column;
+      }
+
+      section {
+        padding: 55px 5%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">WTGM</div>
+
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#ministries">Ministries</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+
+    <h1>Worship Theater Global Ministries</h1>
+
+    <h2>WORSHIP → WORD → POWER → DISCIPLESHIP → MISSION</h2>
+
+    <p>
+      A Christ-centered ministry committed to transforming lives,
+      repositioning minds, raising disciples and advancing God's Kingdom.
+    </p>
+
+    <a href="#about" class="button">Discover Our Ministry</a>
+    <a href="#contact" class="button dark">Connect With Us</a>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-title">
+    <h2>Who We Are</h2>
+    <span>Worship Theater Global Ministries</span>
+  </div>
+
+  <div class="about">
+    <p>
+      Worship Theater Global Ministries is a Christ-centered ministry
+      committed to worship, the Word, spiritual transformation,
+      discipleship and Kingdom mission.
+    </p>
+
+    <br>
+
+    <p>
+      We believe that genuine worship should lead people to the Word,
+      the Word should produce spiritual power, power should produce
+      discipleship, and discipleship should produce mission.
+    </p>
+  </div>
+</section>
+
+<section class="vision" id="vision">
+  <div class="section-title">
+    <h2>Our Vision & Mission</h2>
+    <span>Romans 12:1–2</span>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Our Vision</h3>
+      <p>
+        To see lives transformed through worship, the Word,
+        discipleship and the demonstration of God's power.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>
+        To raise Christ-centered disciples who influence their
+        generation and advance God's Kingdom in every sphere of life.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Our Calling</h3>
+      <p>
+        Repositioning the mindset of young people through the
+        transforming power of God's Word.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="ministries">
+  <div class="section-title">
+    <h2>Our Ministries</h2>
+    <span>Serving God's People</span>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Worship Arm</h3>
+      <p>Worship & Music<br>Prayer & Intercession<br>Theater & Creative Ministry</p>
+    </div>
+
+    <div class="card">
+      <h3>Word & Discipleship</h3>
+      <p>School of Ministry<br>Follow-up<br>Youth<br>Children<br>Men & Women<br>Marriage & Family</p>
+    </div>
+
+    <div class="card">
+      <h3>Evangelism & Impact</h3>
+      <p>Evangelism & Missions<br>Community Development<br>Benevolence</p>
+    </div>
+
+    <div class="card">
+      <h3>Care & Fellowship</h3>
+      <p>Pastoral Care<br>Welfare<br>Hospitality<br>Protocol<br>Ushering</p>
+    </div>
+
+    <div class="card">
+      <h3>Administration & Resource</h3>
+      <p>Administration<br>Finance<br>Media<br>ICT & Technical<br>Security</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2>Our Services</h2>
+    <span>Come and Worship With Us</span>
+  </div>
+
+  <div class="services">
+
+    <div class="service">
+      <strong>Sunday Service</strong>
+      <span>9:00 AM</span>
+    </div>
+
+    <div class="service">
+      <strong>Tuesday Service</strong>
+      <span>6:00 PM</span>
+    </div>
+
+    <div class="service">
+      <strong>Thursday Service</strong>
+      <span>5:00 PM</span>
+    </div>
+
+    <div class="service">
+      <strong>Koinonia of Worship (Surgical Worship)</strong>
+      <span>Every Last Sunday — 4:00 PM</span>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Join the Mission</h2>
+    <span>Be Part of What God Is Doing</span>
+  </div>
+
+  <div class="about">
+    <p>
+      There is a place for you in Worship Theater Global Ministries.
+      Worship with us, grow with us, serve with us and help us reach
+      lives for Christ.
+    </p>
+
+    <br>
+
+    <a href="#contact" class="button">Connect With WTGM</a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+    <span>We Would Love to Hear From You</span>
+  </div>
+
+  <p><strong>Worship Theater Global Ministries</strong></p>
+
+  <p>Phone: 08127419300</p>
+
+  <p>Keffi, Nasarawa State, Nigeria</p>
+
+  <p>
+    Website:
+    www.worshiptheaterglobal.org
+  </p>
+</section>
+
+<footer>
+  <p>
+    © 2026 <span>Worship Theater Global Ministries</span>.
+    All Rights Reserved.
+  </p>
+
+  <p>Worship • Word • Power • Discipleship • Mission</p>
+</footer>
+
+</body>
+</html>
