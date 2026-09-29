@@ -1,0 +1,13 @@
+worshiptheaterglobal/
+│
+├── index.html
+├── events.html
+├── gallery.html
+├── README.md
+│
+└── images/
+    ├── wtgm-service-1.jpg
+    ├── wtgm-service-2.jpg
+    ├── koinonia.jpg
+    ├── outreach.jpg
+    └── event-flyer.jpg
