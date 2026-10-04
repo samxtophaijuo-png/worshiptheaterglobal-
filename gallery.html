@@ -3,178 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Gallery | Worship Theater Global Ministries</title>
-
-<meta name="description" content="Photo gallery of Worship Theater Global Ministries events, worship services and Kingdom activities.">
 
 <style>
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
   color: #222;
-  background: #f7f7f7;
 }
 
 header {
   background: #111;
   color: white;
-  padding: 18px 6%;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+header p {
+  margin: 7px 0 0;
+  font-size: 13px;
 }
 
 nav {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.logo {
-  font-size: 26px;
-  font-weight: bold;
-  color: #d9af28;
+  background: #222;
+  text-align: center;
+  padding: 12px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin-left: 15px;
-  font-size: 15px;
-}
-
-nav a:hover {
-  color: #d9af28;
+  margin: 0 10px;
+  font-size: 14px;
 }
 
 .hero {
-  background: linear-gradient(135deg, #111, #292929);
-  color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 35px 20px 20px;
 }
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 15px;
+.hero h2 {
+  margin-bottom: 8px;
+  font-size: 30px;
 }
 
 .hero p {
-  max-width: 750px;
-  margin: auto;
-  font-size: 19px;
-}
-
-.container {
-  max-width: 1150px;
-  margin: auto;
-  padding: 60px 20px;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.section-title p {
   color: #666;
 }
 
 .gallery {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-.gallery-card {
+.card {
   background: white;
-  border-radius: 14px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
 }
 
-.gallery-card img {
+.card img {
   width: 100%;
-  height: 230px;
+  height: 250px;
   object-fit: cover;
   display: block;
 }
 
-.gallery-caption {
-  padding: 18px;
+.card h3 {
+  margin: 0;
+  padding: 15px;
   text-align: center;
-}
-
-.gallery-caption h3 {
-  margin-bottom: 5px;
-}
-
-.gallery-caption p {
-  color: #666;
-  font-size: 14px;
-}
-
-.placeholder {
-  height: 230px;
-  background: #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #555;
-  font-weight: bold;
-}
-
-.notice {
-  margin-top: 50px;
-  padding: 30px;
-  background: #111;
-  color: white;
-  border-radius: 14px;
-  text-align: center;
+  font-size: 17px;
 }
 
 footer {
   background: #111;
   color: white;
   text-align: center;
-  padding: 30px 20px;
+  padding: 25px 15px;
+  margin-top: 30px;
 }
 
 footer p {
-  margin: 5px 0;
-}
-
-@media (max-width: 700px) {
-  nav {
-    flex-direction: column;
-  }
-
-  nav a {
-    margin: 5px;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 17px;
-  }
+  margin: 6px;
 }
 </style>
 </head>
@@ -182,105 +108,80 @@ footer p {
 <body>
 
 <header>
-  <nav>
-    <div class="logo">WTGM</div>
-
-    <div>
-      <a href="index.html">Home</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#ministries">Ministries</a>
-      <a href="index.html#services">Services</a>
-      <a href="events.html">Events</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="index.html#contact">Contact</a>
-    </div>
-  </nav>
+  <h1>Worship Theater Global Ministries</h1>
+  <p>WORSHIP → WORD → POWER → DISCIPLESHIP → MISSION</p>
 </header>
 
-<section class="hero">
-  <h1>WTGM Gallery</h1>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="index.html#ministries">Ministries</a>
+  <a href="index.html#services">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="events.html">Events</a>
+  <a href="index.html#contact">Contact</a>
+</nav>
 
-  <p>
-    Moments of worship, fellowship, ministry, discipleship,
-    outreach and Kingdom impact.
-  </p>
+<section class="hero">
+  <h2>WTGM Gallery</h2>
+  <p>Moments of Worship, Word, Prayer, Power, Discipleship and Mission.</p>
 </section>
 
-<main class="container">
+<section class="gallery">
 
-  <div class="section-title">
-    <h2>Our Gallery</h2>
-    <p>Photos from Worship Theater Global Ministries.</p>
+  <div class="card">
+    <img src="images/IMG-20260103-WA0013.jpg" alt="Worship Theater Global Ministries">
+    <h3>Worship & Praise</h3>
   </div>
 
-  <section class="gallery">
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 1</div>
-      <div class="gallery-caption">
-        <h3>Worship & Praise</h3>
-        <p>WTGM worship experience</p>
-      </div>
-    </article>
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 2</div>
-      <div class="gallery-caption">
-        <h3>Word & Discipleship</h3>
-        <p>Teaching and discipleship</p>
-      </div>
-    </article>
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 3</div>
-      <div class="gallery-caption">
-        <h3>Prayer & Power</h3>
-        <p>Prayer and spiritual ministry</p>
-      </div>
-    </article>
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 4</div>
-      <div class="gallery-caption">
-        <h3>Kingdom Mission</h3>
-        <p>Evangelism and community impact</p>
-      </div>
-    </article>
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 5</div>
-      <div class="gallery-caption">
-        <h3>Special Events</h3>
-        <p>WTGM programs and gatherings</p>
-      </div>
-    </article>
-
-    <article class="gallery-card">
-      <div class="placeholder">PHOTO 6</div>
-      <div class="gallery-caption">
-        <h3>Koinonia of Worship</h3>
-        <p>Surgical Worship</p>
-      </div>
-    </article>
-
-  </section>
-
-  <div class="notice">
-    <h2>More Photos Coming Soon</h2>
-    <p>
-      This gallery will be updated with photographs from
-      WTGM services, events, outreaches and ministry activities.
-    </p>
+  <div class="card">
+    <img src="images/IMG-20260103-WA0016.jpg" alt="WTGM Ministry">
+    <h3>Ministry & Fellowship</h3>
   </div>
 
-</main>
+  <div class="card">
+    <img src="images/IMG-20260103-WA0021.jpg" alt="WTGM Service">
+    <h3>Word & Discipleship</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/IMG-20260103-WA0033.jpg" alt="WTGM Worship">
+    <h3>Worship Experience</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/IMG-20260103-WA0037.jpg" alt="WTGM Gathering">
+    <h3>Kingdom Fellowship</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/IMG-20260103-WA0060.jpg" alt="WTGM Program">
+    <h3>Special Program</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/IMG_2608.jpeg" alt="WTGM Ministry">
+    <h3>Prayer & Power</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/IMG_2734.jpeg" alt="WTGM Ministry">
+    <h3>Kingdom Mission</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Black%20Maximalist%20Church%20Year%20Theme%20%20Facebook%20Shared%20Image_1769514209083.jpg" alt="WTGM Church Program">
+    <h3>Church Year Theme</h3>
+  </div>
+
+</section>
 
 <footer>
   <p><strong>Worship Theater Global Ministries</strong></p>
-  <p>WORSHIP → WORD → POWER → DISCIPLESHIP → MISSION</p>
   <p>Phone: 08127419300</p>
   <p>Keffi, Nasarawa State, Nigeria</p>
+  <p>© 2026 WTGM. All Rights Reserved.</p>
 </footer>
 
 </body>
-  </html>
+</html>
